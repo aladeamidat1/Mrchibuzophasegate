@@ -11,5 +11,5 @@ public interface ResidentRepository {
     void delete(int id);
     Resident findById(int id);
     List<Resident> findAll();
-    Long count();
+    int count();
 }

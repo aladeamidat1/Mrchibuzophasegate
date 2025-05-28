@@ -7,18 +7,13 @@ public class Resident {
     private String phone;
     private String address;
 
-    public Resident(String FullName, String email, String phone, String address, int id){
-        this.FullName = FullName;
-        this.email = email;
-        this.phone = phone;
-        this.address = address;
-        this.id = id;
-    }
 
     public int getId(){
         return id;
     }
-
+    public void setId(int id){
+        this.id = id;
+    }
 
     public String getFullName(){
         return FullName;

@@ -1,6 +1,5 @@
-package data.repository;
-
 import data.models.Resident;
+import data.repository.Residents;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -82,7 +81,5 @@ public class ResidentsTest {
         residents.delete(secondresident);
         assertEquals(0, residents.count());
     }
-
-
 
 }
